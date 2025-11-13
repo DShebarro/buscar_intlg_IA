@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0e1a; /* Fundo escuro azulado/preto */
+    color: #e0e0e0;
+}
+.accent-color {
+    color: #4f46e5;
+}
