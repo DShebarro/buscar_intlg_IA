@@ -73,8 +73,7 @@
       </div>
 
       <!-- Área de Resultados -->
-       <div id="resultsArea" class="max-w-3xl mx-auto mt-12 text-left hidden">
-
+      <div id="resultsArea" class="max-w-3xl mx-auto mt-12 text-left hidden">
         <!-- Indicador de Carregamento da pesquisa -->
         <div id="loadingIndicator" class="text-center py-10 hidden">
           <div class="load mx-auto"></div>
@@ -82,10 +81,21 @@
         </div>
 
         <!-- Conteúdo do Resultado -->
-         <div id="resultContent" class="card rounded-lg p-6 shadow-xl hidden">
+        <div id="resultContent" class="card rounded-lg p-6 shadow-xl hidden">
           <h2 class="text-2xl font-semibold mb-4 text-white">Resposta</h2>
-         </div>
-       </div>
+          <div
+            id="aiResponse"
+            class="ai-response text-gray-300 text-lg leading-relaxed"
+          ></div>
+
+          <hr class="border-gray-600 mu-6" />
+
+          <h3 class="text-xl font-semibold mb-3 text-white">Fontes</h3>
+          <div id="aiSources" class="flex flex-col gap-2">
+            <!-- Fontes serão exibidas ou injetadas aqui -->
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
