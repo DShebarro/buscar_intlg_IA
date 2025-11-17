@@ -14,4 +14,14 @@ body {
 .bg-accent {
     background-color: #4f46e5;
 }
-
+.hover-bg-accent:hover {
+    background-color: #4338ca;
+}
+/* Estilo do card */
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+}
+::placeholder {
+    color: #94a3b8;
+}

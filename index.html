@@ -95,7 +95,67 @@
             <!-- Fontes serão exibidas ou injetadas aqui -->
           </div>
         </div>
+        <div
+          id="errorMessage"
+          class="card bg-red-900 border-red-700 rounded-lg p-6 shadow-xl hidden"
+        >
+          <p class="text-lg text-white">
+            Ocorreu um erro ao processar sua busca. Por favor, tente novamente!
+          </p>
+        </div>
       </div>
     </main>
+    <!-- Seção de Pesquisas Populares -->
+    <section class="py-20 bg-gray-900/50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">
+          O que estão buscando?
+        </h2>
+        <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+          <span
+            class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
+            >Futuro da IA no Brasil
+          </span>
+          <span
+            class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
+            >Investimento em energia solar
+          </span>
+          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+            Como funciona o Gemini 2.5
+          </span>
+          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+            Melhores receitas para jantar
+          </span>
+          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+            Notícias de tecnologia
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Depoimentos (Feedback) -->
+     <section id="feedback" class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Deixe seu comentário</h2>
+
+        <!-- Formulário -->
+         <div class="max-w-3xl mx-auto mb-10">
+          <form id="comment-form" class="bg-gray-800 rounded-lg p-6 shadow-lg">
+            <div class="mb-4">
+              <label class="block text-sm text-gray-300 mb-1" for="author_name">Nome:</label>
+              <input id="author_name" name="author_name" placeholder="Digite ser nome" type="text" required class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500">
+            </div>
+            <div class="mb-6">
+              <label class="block text-sm text-gray-300 mb-1" for="content">Comentário</label>
+              <textarea id="content" name="content" rows="4" required placeholder="Deixe seu comentário..." class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+              <button type="submit" class="inline-flex items-center px-5 py-2.5 rounded-md bg-indigo-600 text-white hover:bg-indigo-500 focus:outline-none">Enviar Comentário</button>
+              <span id="form-status" class="text-sm text-gray-400"></span>
+            </div>
+          </form>
+         </div>
+      </div>
+     </section>
   </body>
 </html>
