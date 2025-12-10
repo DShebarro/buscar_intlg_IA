@@ -22,11 +22,11 @@
       </div>
       <div>
         <a
-          href="https://dshebarro.github.io/devlinks_perfil/"
+          href="https://dshebarro.github.io/Profile_Dev/"
           target="_blank"
           rel="noopener noreferrer"
           class="hidden md:inline-block px-4 py-2 text-white hover:text-gray-300"
-          >Meu Perfil</a
+          >Portifólio</a
         >
         <a
           href="#feedback"
@@ -46,7 +46,7 @@
     <main class="container mx-auto px-6 pt-16 pb-24 text-center">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 leadind-tight">
         Sua busca, uma definição com a
-        <span class="accent-color">Dsintelli-IA</span>
+        <strong><span class="accent-color">DsIntelli-IA</span></strong>
       </h1>
       <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-10">
         Obtenha resultado mais precisos e repostas diretas. A IA analise e
@@ -120,13 +120,19 @@
             class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
             >Investimento em energia solar
           </span>
-          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+          <span
+            class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
+          >
             Como funciona o Gemini 2.5
           </span>
-          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+          <span
+            class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
+          >
             Melhores receitas para jantar
           </span>
-          <span class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors">
+          <span
+            class="bg-gray-700 text-gray-200 px-5 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-600 transition-colors"
+          >
             Notícias de tecnologia
           </span>
         </div>
@@ -134,28 +140,53 @@
     </section>
 
     <!-- Seção de Depoimentos (Feedback) -->
-     <section id="feedback" class="py-20">
+    <section id="feedback" class="py-20">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-12">Deixe seu comentário</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">
+          Deixe seu comentário
+        </h2>
 
         <!-- Formulário -->
-         <div class="max-w-3xl mx-auto mb-10">
+        <div class="max-w-3xl mx-auto mb-10">
           <form id="comment-form" class="bg-gray-800 rounded-lg p-6 shadow-lg">
             <div class="mb-4">
-              <label class="block text-sm text-gray-300 mb-1" for="author_name">Nome:</label>
-              <input id="author_name" name="author_name" placeholder="Digite ser nome" type="text" required class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500">
+              <label class="block text-sm text-gray-300 mb-1" for="author_name"
+                >Nome:</label
+              >
+              <input
+                id="author_name"
+                name="author_name"
+                placeholder="Digite ser nome"
+                type="text"
+                required
+                class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500"
+              />
             </div>
             <div class="mb-6">
-              <label class="block text-sm text-gray-300 mb-1" for="content">Comentário</label>
-              <textarea id="content" name="content" rows="4" required placeholder="Deixe seu comentário..." class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500"></textarea>
+              <label class="block text-sm text-gray-300 mb-1" for="content"
+                >Comentário</label
+              >
+              <textarea
+                id="content"
+                name="content"
+                rows="4"
+                required
+                placeholder="Deixe seu comentário..."
+                class="w-full rounded-md bg-gray-900 border border-gray-700 text-white px-4 py-2 focus:outline-none focus: ring-2 focus:ring-indigo-500"
+              ></textarea>
             </div>
             <div class="flex items-center justify-between">
-              <button type="submit" class="inline-flex items-center px-5 py-2.5 rounded-md bg-indigo-600 text-white hover:bg-indigo-500 focus:outline-none">Enviar Comentário</button>
+              <button
+                type="submit"
+                class="inline-flex items-center px-5 py-2.5 rounded-md bg-indigo-600 text-white hover:bg-indigo-500 focus:outline-none"
+              >
+                Enviar Comentário
+              </button>
               <span id="form-status" class="text-sm text-gray-400"></span>
             </div>
           </form>
-         </div>
+        </div>
       </div>
-     </section>
+    </section>
   </body>
 </html>
