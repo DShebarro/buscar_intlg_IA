@@ -6,7 +6,7 @@ O objetivo deste projeto é apresentar minhas habilidades, experiências, projet
 
 <p align="center">
   <img 
-       src="./assets/img/demo.png" 
+       src="./assets/demo.png" 
        alt="Demonstração do Projeto"
        width="600"
        style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" 
