@@ -1,0 +1,77 @@
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# lerna-debug.log*
+
+# node_modules
+# dist
+# dist-ssr
+# *.local
+
+# # Editor directories and files
+# .vscode/*
+# !.vscode/extensions.json
+# .idea
+# .DS_Store
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.sw?
+
+# --- Dependências (Ignora em qualquer subpasta) ---
+node_modules/
+*/node_modules/
+# package-lock.json # (Removed ignore rule to ensure reproducible builds)
+
+# --- Builds de Produção (Frontend) ---
+dist/
+build/
+out/
+
+# --- Variáveis de Ambiente (CRÍTICO - SEGURANÇA) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# Exceção: Mantém o arquivo de exemplo para outros devs saberem o que configurar
+!.env.example
+
+# --- Logs e Debug do Node.js ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# --- Cache e Temporários do Vite ---
+.vite/
+*.tsbuildinfo
+
+# --- IDEs e Editores (Configurações locais do VS Code/Windows) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Testes e Cobertura ---
+coverage/
+.nyc_output/
+
+# --- Arquivos temporários do servidor ---
+server/uploads/
