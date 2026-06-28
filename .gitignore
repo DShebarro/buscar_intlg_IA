@@ -75,3 +75,5 @@ coverage/
 
 # --- Arquivos temporários do servidor ---
 server/uploads/
+server/comments.json
+

@@ -35,7 +35,7 @@ export const useSearch = () => {
     return { performSearch, isLoading, error, results };
 };
 
-const extracSources = (metadata) => {
+const extractSources = (metadata) => {
     if (!metadata?.groundingAttributions) return [];
 
     return metadata.groundingAttributions.map(attr => ({
